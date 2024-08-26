@@ -1,7 +1,7 @@
 import React from "react";
-import TomoU from "../assets/tomou.png";
-import PigDice from "../assets/pig-dice.png";
-import CoffeeShop from "../assets/CoffeeShop.png";
+import LetsLearnChinese from "../assets/letslearnchinese.png";
+import SwiftShop from "../assets/swiftshop.png";
+import WalletAnalyzer from "../assets/walletanalyzer.png";
 
 const Projects = () => {
   return (
@@ -14,49 +14,49 @@ const Projects = () => {
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
-          <div style={{ backgroundImage: `url(${PigDice})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div style={{ backgroundImage: `url(${SwiftShop})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Pig Dice | Vanilla Js
+                Smart Shopping App | React
               </span>
               <div className="pt-8 text-center">
-                <a href="https://g-lee2.github.io/pig-dice-game/">
+                <a href="https://tcl-70-smart-shopping-list.web.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#aaabb8] hover:text-white">Demo</button>
                 </a>
-                <a href="https://github.com/g-lee2/pig-dice-game">
+                <a href="https://github.com/g-lee2/tcl-70-smart-shopping-list">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#aaabb8] hover:text-white">Code</button>
                 </a>
               </div>
             </div>
           </div>
-          <div style={{ backgroundImage: `url(${TomoU})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div style={{ backgroundImage: `url(${WalletAnalyzer})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                TomoU | React Native
+                Wallet analyzer | React, Electron
               </span>
               <div className="pt-8 text-center">
                 {/* <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#aaabb8] hover:text-white">Demo</button>
                 </a> */}
-                <a href="https://github.com/g-lee2/TomoU">
+                <a href="https://github.com/g-lee2/wallet-analyzer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#aaabb8] hover:text-white">Code</button>
                 </a>
               </div>
             </div>
           </div>
-          <div style={{ backgroundImage: `url(${CoffeeShop})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div style={{ backgroundImage: `url(${LetsLearnChinese})` }} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Coffee Inventory | React
+                Let's Learn Chinese | React Native
               </span>
               <div className="pt-8 text-center">
                 {/* <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#aaabb8] hover:text-white">Demo</button>
                 </a> */}
-                <a href="https://github.com/g-lee2/inventory-tracker">
+                <a href="https://github.com/g-lee2/lets-learn-chinese">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#aaabb8] hover:text-white">Code</button>
                 </a>
               </div>
