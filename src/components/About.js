@@ -16,7 +16,7 @@ const About = () => {
           </div>
           <div>
             <p>
-              Passionate software developer committed to crafting practical solutions that address real-world challenges. Eager to collaborate on projects that require creativity, attention to detail, and a dedication to improving user interactions. Enthusiastic about embracing new technologies and practices to refine my coding abilities.
+              I'm a software engineer with a passion for languages and technology. When I'm not coding, you'll find me spending quality time with my dog, getting lost in a good book, or trying out new hobbies. I believe in lifelong learning and enjoy exploring new ideas. I love challenging myself with personal projects and continuously learning new skills. I'm always eager to connect with like-minded individuals and continue growing both personally and professionally.
             </p>
           </div>
         </div>
