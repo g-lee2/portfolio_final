@@ -50,12 +50,12 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center text-center">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Let's Learn Chinese | React Native
+                Mandarin Mate | React Native
               </span>
               <div className="pt-8 text-center">
-                {/* <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#aaabb8] hover:text-white">Demo</button>
-                </a> */}
+                <a href="https://apps.apple.com/us/app/mandarin-mate/id6670455400">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#aaabb8] hover:text-white">View in App Store</button>
+                </a>
                 <a href="https://github.com/g-lee2/lets-learn-chinese">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#aaabb8] hover:text-white">Code</button>
                 </a>
